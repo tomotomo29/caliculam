@@ -16,7 +16,7 @@ class PostController extends Controller
     {
         return view('show')->with(['post' =>$post]);
     }
-    
+  
     public function create()
     {
         return view('create');
